@@ -39,8 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
-                final String printVal = (EditText)findViewById(R.id.editText1).getText();
-                Toast.makeText(getApplicationContext(), "Value = " + printVal, Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Value Changed ", Toast.LENGTH_SHORT).show();
             }
 
             @Override
